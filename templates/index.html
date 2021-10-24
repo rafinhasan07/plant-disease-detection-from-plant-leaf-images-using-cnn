@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="container">
+
+    <div class="split left">
+
+        <div class="centered">
+            <form action="/" id="upload-file" method="post" enctype="multipart/form-data">
+                <label for="imageUpload" class="upload-label">Upload</label>
+                <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+                <div class="image-section" style="display:none;">
+                    <div class="img-preview">
+                        <div id="imagePreview"></div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+                    </div>
+                </div>
+
+            </form>
+
+            <div class="loader" style="display:none;"></div>
+            <div>
+                <h2 class="app-introduction">Image Classifier</h2>
+                <p class="app-introduction" style="font-size:18px">Upload a picture of the leaf of the plant.</p>
+            </div>
+
+        </div>
+
+    <div class="split right">
+        <div class="centered">
+            <h2>Result:</h2>
+            {% if result %}
+                <h2>{{result}}</h2>
+            {% else %}
+                <h2>Upload a picture first!</h2>
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
