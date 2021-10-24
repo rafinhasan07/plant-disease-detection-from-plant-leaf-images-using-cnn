@@ -1,4 +1,4 @@
-intel mkl_fft
+-c intel mkl_fft
 absl-py
 aiohttp
 astor==0.8.1
