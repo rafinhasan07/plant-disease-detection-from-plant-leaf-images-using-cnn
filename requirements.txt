@@ -1,4 +1,4 @@
-mkl
+intel mkl_fft
 absl-py
 aiohttp
 astor==0.8.1
@@ -20,7 +20,7 @@ cryptography
 Cython
 Flask==2.0.2
 flatbuffers==1.12
-gast
+gast==0.4.0
 google-auth
 google-auth-oauthlib
 google-pasta
@@ -37,7 +37,7 @@ Keras-Preprocessing
 Markdown
 MarkupSafe==2.0.1
 multidict
-numpy
+numpy=1.19.2
 oauthlib
 opt-einsum
 Pillow==8.4.0
