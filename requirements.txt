@@ -67,3 +67,7 @@ wincertstore==0.2
 wrapt==1.12.1
 yarl
 zipp
+mistune
+nbconvert
+nbformat
+notebook
