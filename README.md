@@ -1,4 +1,4 @@
-<h3> plant-disease-detection-form-plant-leaf-images-using-cnn </h3>
+<h3>Plant disease detection from plant leaf images using CNN</h3>
 
 <p>This web application aims to identify whether a plant is healthy or not using the plant's leaf features. In addition, if the plant is not healthy then it also predicts the name of the disease.</p>
 <p>However, so far this app only supports 14 different types of fruits and vegetables. They are Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Pepper(bell), Potato, Raspberry, Soybean, Squash, Strawberry, and Tomato.</p>
