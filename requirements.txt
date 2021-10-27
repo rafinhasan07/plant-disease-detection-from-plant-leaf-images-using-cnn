@@ -35,6 +35,9 @@ Keras-Applications
 Keras-Preprocessing
 Markdown
 MarkupSafe==2.0.1
+mkl-fft
+mkl-random
+mkl-service
 multidict
 numpy
 oauthlib
